@@ -1,6 +1,6 @@
 import { useGLTF } from "@react-three/drei";
 
-export const teachers = ["Blanca", "Miguel"];
+export const teachers = ["Laia", "Elias"];
 
 export const Teacher = ({ teacher, ...props }) => {
     const { scene } = useGLTF(`/models/Teacher_${teacher}.glb`);

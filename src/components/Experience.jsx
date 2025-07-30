@@ -15,7 +15,7 @@ export const Experience = () => {
                 <Environment preset="sunset" />
                 <ambientLight intensity={0.8} color="pink" />
                 <Teacher 
-                    teacher={"Miguel"} 
+                    teacher={"Elias"} 
                     position={[-0.95, -0.25, -3]} 
                     scale={2.8} 
                     rotation-y={degToRad(20)}
