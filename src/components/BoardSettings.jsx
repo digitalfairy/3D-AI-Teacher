@@ -28,7 +28,7 @@ export const BoardSettings = () => {
                                 className="object-cover w-40 h-40"
                             />
                         </div>
-                        <h2 className="text-3xl font-bold mt-3 text-center">{currentTeacher}</h2>
+                        <h2 className="text-3xl font-bold mt-3 text-center text-black">{currentTeacher}</h2>
                     </div>
                 ))}
             </div>

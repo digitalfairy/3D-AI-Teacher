@@ -56,10 +56,10 @@ export const MessagesList = () => {
       {messages.length === 0 && (
         <div className="h-full w-full grid place-content-center text-center">
           <h2 className="text-8xl font-bold text-white/90 italic">
-            Anita
+            Anita's
           </h2>
           <h2 className="text-8xl font-bold text-red-600/90 italic">
-            Escuela de Español
+            School of Spanish
           </h2>
         </div>
       )}
@@ -146,7 +146,7 @@ export const MessagesList = () => {
                       <p className="text-pink-300/90 text-2xl">
                         {chunk.meaning}
                       </p>
-                      <p className="text-blue-400/90 text-2xl">
+                      <p className="text-blue-400/90 text-3xl">
                         {chunk.grammar}
                       </p>
                     </div>
